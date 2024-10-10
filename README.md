@@ -15,9 +15,7 @@ Basta atribuir a permissão no Key Vault:
 ### No Notebook
 
 ```python
-secret_value = mssparkutils.credentials.getSecret('https://uq-bi-key-vault.vault.azure.net/', 'BW')
-print(secret_value)
-print("Sucesso")
+secret_value = mssparkutils.credentials.getSecret("url do KeyVualt", "nome do secret")
 ```
 
 ## Opção 2: Identidades do espaço de trabalho
